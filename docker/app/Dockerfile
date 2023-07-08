@@ -1,5 +1,5 @@
 # イメージのベースを指定する
-FROM php:7.4.1-fpm
+FROM php:8.2.0-fpm
 
 # php.iniをコピー
 COPY ./docker/app/php.ini /usr/local/etc/app/php.ini
